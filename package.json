@@ -1,0 +1,24 @@
+{
+  "name": "rand-port",
+  "version": "0.0.0",
+  "description": "Find a random open port",
+  "author": "Peter Safranek <pe8ter@mac.com> (http://pe8ter.com)",
+  "license": "MIT",
+  "private": true,
+  "keywords": "port",
+  "homepage": "https://github.com/pe8ter/rand-port",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pe8ter/rand-port.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pe8ter/rand-port/issues"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^1.4.2"
+  }
+}
