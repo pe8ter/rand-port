@@ -1,7 +1,7 @@
 {
   "name": "rand-port",
-  "version": "0.0.0",
-  "description": "Find a random open port on localhost",
+  "version": "1.0.0",
+  "description": "Find a random available port on localhost",
   "author": "Peter Safranek <pe8ter@mac.com> (http://pe8ter.com)",
   "license": "MIT",
   "keywords": "port",
