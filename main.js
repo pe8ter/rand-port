@@ -60,7 +60,7 @@ module.exports = function (start, callback) {
     var found = false
     var candidate
 
-    async.doWhilst(_testRandomPort, _found, _finally)
+    async.doWhilst(_testRandomPort, _notFound, _finally)
 
     function _testRandomPort(done) {
 
@@ -84,7 +84,7 @@ module.exports = function (start, callback) {
         })
     }
 
-    function _found() {
+    function _notFound() {
         return !found
     }
 

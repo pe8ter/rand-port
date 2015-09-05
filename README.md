@@ -28,9 +28,12 @@ rp(3000, function (port) {
 
 ## Development
 
-Clone the repository and install dependencies:
+Clone the repository, install dependencies, and test:
 
 ```
 git clone https://github.com/pe8ter/rand-port.git
 npm install
+npm test
 ```
+
+The tests aren't perfect because of the module's random behavior. A test failure is always a sign that something's wrong, but the whole suite passing is not necessarily proof that everything is okay. It's a strong signal, just not as strong as I would like it to be.
