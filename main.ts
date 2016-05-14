@@ -6,7 +6,7 @@ const MAX_REGISTERD_PORT = 49151;
 const MIN_INPUT = 1000;
 const MAX_INPUT = 49999;
 
-export function randPort(start?: number): Promise<number> {
+export async function randPort(start?: number): Promise<number> {
 
     return Promise.resolve(0);
 }

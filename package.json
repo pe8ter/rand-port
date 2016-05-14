@@ -1,7 +1,7 @@
 {
   "name": "rand-port",
-  "version": "1.0.1",
-  "description": "Find a random available port on localhost",
+  "version": "2.0.0",
+  "description": "Find a random available registered port on localhost",
   "author": "Peter Safranek <pe8ter@mac.com> (http://pe8ter.com)",
   "license": "MIT",
   "keywords": "port",
@@ -14,13 +14,7 @@
     "url": "https://github.com/pe8ter/rand-port/issues"
   },
   "main": "main.js",
-  "scripts": {
-      "test": "tape 'test/**/*.js'"
-  },
-  "dependencies": {
-    "async": "^1.4.2"
-  },
-  "devDependencies": {
-    "tape": "^4.2.0"
-  }
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
 }
