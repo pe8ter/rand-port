@@ -13,8 +13,12 @@
   "bugs": {
     "url": "https://github.com/pe8ter/rand-port/issues"
   },
-  "main": "main.js",
+  "main": "main.ts",
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.4",
+    "typescript": "^1.8.10"
+  }
 }

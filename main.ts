@@ -1,4 +1,6 @@
 
+/// <reference path="./typings/main.d.ts" />
+
 import { Socket } from 'net';
 
 const MIN_REGISTERD_PORT = 1024;

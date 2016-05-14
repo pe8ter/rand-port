@@ -2,6 +2,10 @@
 
 Find a random available registered port on localhost
 
+## Important
+
+rand-port requires a version of Node that supports generator functions and the `yield` keyword.
+
 ## Usage in ES5
 
 ```javascript
@@ -17,6 +21,9 @@ randPort(3000).then(function (port) {
 ```
 
 ## Usage with experimental async/await
+
+Until async/await officially becomes part of the ES standard, using rand-port this way requires a transpiler, like
+TypeScript or Babel.
 
 ```javascript
 import { randPort } from 'rand-port';
