@@ -1,6 +1,6 @@
 # rand-port
 
-Find a random available port on localhost
+Find a random available registered port on localhost
 
 ## Usage
 
